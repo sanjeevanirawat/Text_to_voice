@@ -12,6 +12,7 @@ Personal Assistants: Creating custom voices for virtual assistants tailored to i
 Content Creation: Allowing content creators to produce audio in their unique voice without continuous recording.
 Accessibility: Providing consistent and familiar voices for assistive technologies used by individuals with disabilities.
 Entertainment: Enabling voiceovers in media productions that require specific voice attributes.
+
 1.3 Project Objective
 This project focuses on developing a dynamic voice cloning application leveraging the Bark TTS model. The application allows users to upload their audio files, clone their voices, synthesize speech from text input, and download the generated audio. An interactive and user-friendly interface is implemented using Streamlit to facilitate seamless user interaction.
 
