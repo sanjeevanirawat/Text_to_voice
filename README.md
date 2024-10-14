@@ -46,10 +46,6 @@ Audio Processing: SciPy for handling audio file operations
 File Management: OS library for directory and file handling
 2.4.2 Installation Steps
 Clone the Repository:
-bash
-Copy code
-git clone https://github.com/Mercity-AI/Voice-Cloning-Demo.git
-cd Voice-Cloning-Demo
 Install Required Packages:
 bash
 Copy code
@@ -87,11 +83,6 @@ model.load_checkpoint(config, checkpoint_dir="bark/", eval=True)
 BarkConfig: Initializes the configuration settings for the Bark model.
 Model Initialization: Sets up the Bark TTS model architecture and prepares it for loading pre-trained weights.
 Checkpoint Loading: Loads pre-trained weights from the specified directory to ensure the model is ready for speech synthesis tasks.
-2.5.3 Speech Synthesis Process
-python
-Copy code
-text = "Mercity ai is a leading AI innovator in India, with OpenAI planning collaboration."
-voice_dirs = "/Users/username/Desktop/projects/AI voice Cloning/Speaker voice/"
 
 output_dict = model.synthesize(
     text, 
